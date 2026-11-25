@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>club informatique</title>
+</head>
+<body>
+     <header>
+            <a href="index.html">
+                <img src="images.jpeg" alt="retour a la page d'accueil" width="100" height="50" loading="lazy">
+            </a>
+            <h1>club informatique</h1>
+            <nav>
+                <a href="index.html">accueil</a>
+                <a href="activités.html">activités</a>
+                <a href="inscription.html">inscription</a>
+            </nav>
+        </header>
+        <main>
+            <section>
+
+            
+    <form action="merci.html" method="get">
+        <fieldset>
+            <legend>inscription de club informatique</legend>
+            <label for="nom">nom</label>
+            <input type="text",name="nom" id="nom" required minlength="3" placeholder="donner moi un nom"><br>
+            <label for="prenom">prenom</label>
+            <input type="text" name="prenom" id="prenom" required minlength="3" placeholder="donner moi un prenom"><br>
+            <label for="e-mail">e-mail</label>
+            <input type="e-mail" name="e-mail" id="e-mail" required placeholder="donner moi un e-mail"><br>
+            <label for="tel">tel</label>
+            <input type="tel" name="tel" id="tel" pattern="[0-9]{8}" maxlength="8" placeholder="donner un tel"><br>
+            <label for="niveau d'etudes">niveau d'etudes</label>  
+            <label for="ingénieur">ingénieur</label>  
+            <input type="radio" name="niveau d'etudes" id="ingénieur">
+            <label for="rechercheur">rechercheur</label> 
+            <input type="radio" name="niveau d'etudes" id="rechercheur">
+             <label for="technisian">technisian</label> 
+            <input type="radio" name="niveau d'etudes" id="technisian"><br>
+            <label for=" Activités qui vous intéressent "> Activités qui vous intéressent </label>
+            <label for="developement web">developement web</label>
+            <input type="checkbox" name="developement web" id="developement web">
+            <label for="iot et systeme embarqués">iot et systeme embarqués</label>
+            <input type="checkbox" name="iot et systemes elbarqués" id="iot et systeme embarqués"><br>
+    
+           <label for="accepte-reglement">
+           J’accepte le <a href="Règlement Interne des Clubs.pdf" target="_blank" rel="noopener noreferrer">règlement intérieur (PDF)</a></label>
+           <input type="checkbox" id="accepte-reglement" name="accepte_reglement" value="oui" required><br>
+           <input type="submit" value="Envoyer">
+           <input type="reset" value="Effacer" >
+  
+
+         
+        </fieldset>
+    </form>
+     </section>
+        </main>
+</body>
+</html>
